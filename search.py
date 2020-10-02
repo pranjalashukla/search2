@@ -3,7 +3,7 @@ def binarySearch (arr, l, r, x):
     # Check base case 
     if r >= l: 
   
-        mid = l + r / 2
+        mid = l + (r - l) // 2
   
         # If element is present at the middle itself 
         if arr[mid] == x: 
